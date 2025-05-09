@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Dealership {
     String name;
     String address;
@@ -8,6 +10,7 @@ public class Dealership {
         this.address = address;
         this.phone = phone;
     }
+    ArrayList<Vehicle> vehicleArrayList= new ArrayList<>();
 
     public String getVehicleByPrice() {
 
