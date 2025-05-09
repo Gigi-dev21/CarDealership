@@ -12,6 +12,11 @@ public class Dealership {
     }
     ArrayList<Vehicle> vehicleArrayList= new ArrayList<>();
 
+    public void addVehicles() {
+
+
+    }
+
     public String getVehicleByPrice() {
 
         return "";
